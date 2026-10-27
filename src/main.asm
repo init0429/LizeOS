@@ -8,7 +8,7 @@ start:
 
 ; print a string
 ; params:
-;   ds:di points to string
+;   ds:si points to string
 print:
     push    si
     push    ax
