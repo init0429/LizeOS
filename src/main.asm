@@ -38,7 +38,7 @@ main:
     ; stack
     mov     ss, ax
     mov     sp, 0x7C00
-
+    
     ; print msg
     mov     si, msg
     call    print
@@ -48,7 +48,7 @@ main:
 .halt:
     jmp     .halt
 
-msg:        db  "Hello, LizeOS!", ENDL, 0
+msg: db      "Hello, LizeOS!", ENDL, 0
 
 times 510-($-$$) db 0
 dw 0xAA55
