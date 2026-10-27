@@ -1,0 +1,31 @@
+# build output
+build/
+out/
+*.bin
+*.img
+*.iso
+*.o
+*.obj
+*.elf
+*.lst
+*.map
+
+# emulator logs / state
+*.log
+bochsout.txt
+bx_enh_dbg.ini
+*.bxrc.bak
+
+# editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# For Agent
+commit.md
